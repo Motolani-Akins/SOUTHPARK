@@ -1,0 +1,106 @@
+/* General Website Style rules */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    html,
+    body{
+    background-color: #fff;
+    font-family: 'DM Sans', sans-serif;
+     font-family: 'Roboto Slab', serif;
+     padding: 10px 50px;
+    text-rendering: optimizeLegibility;
+    }
+    
+    .section{
+        margin-top: 120px;
+    }
+
+  .navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.nav-links:last-child{
+    margin-right: 260px;
+}
+
+.nav-links li a:link
+.nav-links li a:visited{
+    color: #333;
+    text-decoration: none;
+    /* padding-bottom: 1px; */
+}
+
+
+.nav-links li a:active,
+.nav-links li a:hover{
+    color: #000;
+    padding-bottom: 1px;
+    text-decoration: overline underline;
+    text-underline-position: under;
+}
+
+
+a:link,
+a:visited{
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 1px;
+}
+a:hover,
+a:active{ 
+  color: #000;
+}
+
+/* --------------hero-section------------------ */
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+.light-grey{
+    font-size: 64px;
+    font-weight: 300;
+    color: #BDBDBD;
+}
+.bold-dark{
+    font-size: 64px;
+    font-weight: 600;
+    color: #333;
+}
