@@ -11,7 +11,7 @@
     background-color: #fff;
     font-family: 'DM Sans', sans-serif;
      font-family: 'Roboto Slab', serif;
-     padding: 10px 40px;
+     padding: 0px 40px;
     text-rendering: optimizeLegibility;
     }
     
@@ -31,6 +31,7 @@
     align-items: center;
     justify-content: space-between;
     flex: 1;
+    margin-top: 10px;
 }
 
 .logo{
@@ -45,7 +46,7 @@
 
 .nav-links li{
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 55px;
 }
 
 .nav-links:last-child{
@@ -95,6 +96,8 @@ a:active{
     margin-right: 70px;
     flex: 1;
 }
+
+
 .light-grey{
     font-size: 64px;
     font-weight: 300;
@@ -124,6 +127,7 @@ a:active{
 
 .hero-img{
     position: relative;
+    height: vh;
 }
 
 /* -------------------reusable components-------------------- */
@@ -155,7 +159,7 @@ a:active{
     justify-items: center;
     align-content: center;
     position: absolute;
-    top: 101.4%;
+    top: 90%;
 }
 
 .button_text{
@@ -273,7 +277,7 @@ a:active{
     margin-right: 20px;
 }
 
-/* ------------------section4--------------------- */
+/* ------------------section4 (projects)--------------------- */
 .top-projects img{
     width: 700px;
     margin-top: 60px;
@@ -296,8 +300,178 @@ a:active{
     height: 310px;
 }
 
+.projects-section button{
+    margin-top: 30px;
+    margin-left: 84.3%;
+}
+
+
+/* --------------------section five----------------------- */
+
+.contact-header{
+    margin-bottom: 22px;
+}
+
 .group-three{
     display: flex;
     flex-direction: row;
 }
 
+.contact-img{
+    display: flex;
+    flex: 2;
+    height: 430px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+
+.form-entry{
+    width: 400px;
+    margin-bottom: 10px;
+    background-color: #f3f3f3;
+    border: none;
+    padding: 15px;
+}
+
+.privacy{
+    font-size: 14px;
+    color: #333;
+    margin-top: 22px;
+   
+}
+.contact-section button{
+    margin-top: 22px;
+}
+
+/* ------------------footer section------------------ */
+footer{
+    background-color: #2c2c2c; 
+}
+.footer-section{
+    background-color: #2c2c2c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 58px;
+
+}
+.footer-headers{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.info{
+    margin-bottom: 60px;
+}
+.info li{
+    list-style-type: none;
+    color: #fff;
+    padding-top: 16px;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details svg{
+    margin-right: 20px;
+}
+
+.details p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500px;
+
+    padding-top: 32px;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+}
+.sm-icons{
+    margin-top: 24px;
+}
+.sm-icons svg{
+    margin-right: 40px;
+}
+/* ----------------Gallery styles-------------- */
+.gallery-hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    margin-right: 70px;
+    flex: 1;
+}
+.gallery-hero-text{
+    margin-bottom: 60px;
+}
+
+.gallery-line{
+    height: 0.5px;
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.gallery-images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-images img{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 248px;
+}
+.gallery-nav-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.no-viewed{
+    margin-right: 26px;
+}
+.directions svg{
+    margin-right: 22px;
+}
+/* ------------------project section--------------- */
+.project-line-up{
+    display: flex;
+    flex-direction: row;
+    background-color: #fbfbfb;
+}
+.project-image{
+    width: 670px;
+}
+.pro-text{
+    margin-left: 30px;
+    margin-right: 70px;
+    font-size: 16px;
+    font-weight: 300px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pro-long-text{
+
+    margin-top: 30px;
+}
+
+.pro-text button{
+    align-self: left;
+    margin-top: 60px;
+}
